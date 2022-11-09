@@ -239,22 +239,7 @@ window.onload = function () {
           'BAAHUBALI',
           'AGNEEPATH',
           'BADRINATH KI DULHANIA',
-          'GOLIYON KI RASLEELA RAM LEELA',
-          'JAI HO',
-          'JOLLY LLB',
-          'AVENGERS END GAME',
-          'BALA',
-          'GHAJINI',
-          'HOLIDAY',
-          'BARFI',
-          'GOLD',
-          'SONU KE TITU KI SWEETY',
-          'BHAAG MILKHA BHAAG',
-          'PUSHPA',
-          'ABCD',
-          'EK VILLAIN',
-          'SON OF SARDAAR',
-          'KAABIL',]
+          ]
       ];
   
       chosenCategory = categories[Math.floor(Math.random() * categories.length)];
