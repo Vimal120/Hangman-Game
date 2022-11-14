@@ -225,7 +225,7 @@ window.onload = function () {
     };
   };
 
-  //  keycheck = function (){
+  //  keyboard event
 
   window.addEventListener(
     "keydown",
@@ -407,7 +407,6 @@ window.onload = function () {
     space = 0;
     result();
     comments();
-
     selectCat();
     canvas();
   };
@@ -421,7 +420,6 @@ window.onload = function () {
     if (dlg) {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
-
       context.clearRect(0, 0, 400, 400);
       window.location.reload();
       play();
