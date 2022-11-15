@@ -102,6 +102,7 @@ window.onload = function () {
   comments = function () {
     showLives.innerHTML = "You have " + lives + " lives";
     if (lives < 1) {
+      catagoryName.innerHTML = "The word was " + word;
       showLives.innerHTML = "<span style='color: red;'>You Lose!! ~ GAME OVER</span>";
       comment.innerHTML = "To play again press enter or click on play again";
       flag = true;
@@ -109,6 +110,7 @@ window.onload = function () {
     }
     for (var i = 0; i < geusses.length; i++) {
       if (counter + space === geusses.length) {
+        catagoryName.innerHTML = "Congratulations !!";
         showLives.innerHTML = "<span style='color: MediumSeaGreen;'>~YOU WIN!~</span>";
         comment.innerHTML = "To play again press enter or click on play again";
         flag2 = true;
